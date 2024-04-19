@@ -36,7 +36,6 @@ public class Retangulo extends Figura implements IComum {
 
     @Override
     public double getArea() {
-      
-        throw new UnsupportedOperationException("Unimplemented method 'getArea'");
+       return lado1;
     }  
 }
