@@ -29,7 +29,7 @@ public class Triangulo extends Figura implements IComum{
     }
     @Override
     public double getArea() {
-        throw new UnsupportedOperationException("Unimplemented method 'getArea'");
+         return altura;
     }
     
 }
